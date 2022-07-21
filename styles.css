@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#title, #author, #page, #read {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+table{
+    text-align: center;
+}
+
+[type='submit']{
+    height: 50px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-right: 2.4rem;
+    width: 12rem;
+}
